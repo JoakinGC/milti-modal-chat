@@ -1,0 +1,20 @@
+model_path:
+  small: "./models/mistral-7b-instruct-v0.2-code-ft.Q3_K_M.gguf"
+  large: "models/mistral-7b-instruct-v0.2-code-ft.Q3_K_M.gguf"
+
+model_type: "mistral"
+
+embeddings_path: "BAAI/bge-large-en-v1.5" 
+
+model_config: {'max_new_tokens': 256,'temperature' : 0.2,'context_length': 2048,'gpu_layers' : 0}
+
+chat_history_path: "./chat_sessions/"
+
+pdf_text_splitter:
+  chunk_size: 1024 
+  overlap: 50
+  separators: ["\n", "\n\n"]
+
+chat_config:
+  chat_memory_length: 2
+  number_of_retrieved_documents: 3

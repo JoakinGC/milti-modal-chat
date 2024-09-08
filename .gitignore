@@ -1,0 +1,14 @@
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+.vscode/
+vscode/
+chat_sessions/
+models/
+chat_joa/
+./chat_joa/
+
