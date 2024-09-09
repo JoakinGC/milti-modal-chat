@@ -9,7 +9,7 @@ import time
 
 # Configuración
 API_URL = "https://api-inference.huggingface.co/models/impira/layoutlm-invoices"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer api_key_huggiface"}
 
 def docx_to_images(file_path):
     # Cargar el documento DOCX
