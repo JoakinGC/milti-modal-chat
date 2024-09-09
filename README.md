@@ -1,6 +1,10 @@
 
 # Multi-Modal AI 
 
+[![img1.png](https://i.postimg.cc/856T4Jvq/img1.png)](https://postimg.cc/1nyx5zJH)
+[![img2.png](https://i.postimg.cc/5221Gkv5/img2.png)](https://postimg.cc/dLpzZ65D)
+[![img3.png](https://i.postimg.cc/cJVSvxzT/img3.png)](https://postimg.cc/f3jFFND0)
+
 This repository contains a basic project of a multi-modal artificial intelligence (AI), developed in Python. The system enables interaction with the AI through multiple modalities, including text, audio, images, and PDF documents.
 
 ## Features
